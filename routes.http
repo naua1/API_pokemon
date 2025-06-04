@@ -1,0 +1,17 @@
+GET http://localhost:3000/pokemon
+
+###
+post http://localhost:3000/pokemon/vario
+Content-Type: application/json
+
+###
+post http://localhost:3000/pokemon
+Content-Type: application/json
+###
+
+put http://localhost:3000/pokemon/3
+Content-Type: application/json
+
+###
+
+delete http://localhost:3000/pokemon/3
